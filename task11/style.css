@@ -1,0 +1,82 @@
+* {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 30px;
+  color: #333;
+}
+
+p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.section {
+  background: #fff;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.view-tasks { 
+    background: #7d3cff; 
+}
+.add-task { 
+    background: #00aaff; 
+}
+.complete-task { 
+    background: #ff9900; 
+}
+.delete-task { 
+    background: #ff3333; 
+}
+.task-stats { 
+    background: #222; 
+}
+
+.view-recipes { 
+    background: #7d3cff; 
+}
+.add-recipe { 
+    background: #28a745; 
+}
+.search-recipes { 
+    background: #00aaff; 
+}
+.random-recipe { 
+    background: #ff9900; 
+}

@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+  width: 100%;
+  border: 1px;
+  border-radius: 10px;
+}
+header {
+  padding: 20px;
+  background-color: rgb(5, 19, 51);
+  color: aliceblue;
+  text-transform: uppercase;
+}
+header span {
+  width: 50px;
+  font-size: 20px;
+}
+header nav {
+  display: inline-block;
+  width: 90%;
+  text-align: right;
+}
+header li {
+  display: inline-block;
+  padding: 0 10px;
+  text-transform: uppercase;
+  }
+h3{
+  background-color: rgb(195, 87, 87);
+  border-radius: 10px ;
+}
+.sec1{
+  background-color: rgb(58, 47, 47);
+  color: aliceblue;
+  text-align: center;
+  padding-top: 10px;
+}
+.title{
+  margin-top:10px ;
+  text-align: center;
+  color: rgb(176, 125, 58);
+}
+.sec2{
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 20px;
+}
+.card1{
+  display: inline-block;
+  width: 30%;
+  border-radius: 10px;
+  border: 1px solid rgb(244, 242, 238) ;
+  padding: 10px ;
+}
+.card2{
+  display: inline-block;
+  width: 30%;
+  border-radius: 10px;
+  border: 1px solid rgb(244, 242, 238) ;
+  padding: 10px ;
+}
+
+.card3{
+  display: inline-block;
+  width: 30%;
+  border-radius: 10px;
+  border: 1px solid rgb(244, 242, 238) ;
+  padding: 10px ;
+}
+.sec3{
+  background-color: rgb(83, 83, 162);
+  color: aliceblue;
+  padding: 15px;
+  margin-top: 10px;
+  margin: 0px;
+}
+.name{
+  background-color: rgb(169, 87, 87);
+  width: 20%;
+  border-radius: 10px;
+  padding: 10px;
+}
+.blue{ 
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+.tit{
+  color: rgb(176, 125, 58);
+}
+.num{
+  vertical-align: top;
+  color: rgb(176, 125, 58);
+}
+.yellow{
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  text-transform: uppercase;
+}
+.orang{
+  background-color: brown;
+  color: aliceblue;
+}
+.black{
+  background-color: rgb(66, 66, 156);
+  color: aliceblue;
+
+}
+table{
+  width: 90%;
+  margin: 20px 10px;
+  text-transform: capitalize;
+  border-radius: 15px;
+  border-collapse: collapse;
+  border: 2px solid rgb(243, 241, 241);
+}
+th, td{
+  border: none;
+  padding: 10px;
+}
+.tab{
+  color: rgb(78, 69, 69);
+  margin: 10px;
+  text-transform: capitalize;
+}
+h5{
+  color: rgb(82, 82, 154);
+}
+.gray{
+  color: rgb(90, 90, 95);
+}
+.sec5{
+  margin: 20px;
+  width: 100%;
+  padding: 40px;
+
+}
+.men{
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(176, 125, 58);
+  margin: 10px;
+}
+.end{
+  vertical-align: top;
+  display: inline-block;
+  width: 45%;
+}
+.form{
+  display: inline-block;
+  vertical-align: bottom;
+  border: 2px solid rgb(243, 238, 238);
+  border-radius: 15px;
+  padding: 30px;
+  width: 40%;
+  margin-right: 20px;
+}
+.from input, textarea, label{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.nour{
+  color: rebeccapurple;
+  text-transform: capitalize;
+}
+h4{
+  color: aliceblue;
+  background-color: rgb(195, 87, 87);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px;
+  text-align: center;
+}
+h6{
+    color: rgb(145, 105, 46);
+    text-transform: capitalize;
+}
+.footer{
+    background-color: rgb(76, 76, 127);
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+.clo{
+    display: inline-block;
+    width: 20%;
+    margin: 0 10px;
+    vertical-align: top;
+    text-transform: capitalize;
+}
+.bold{
+    color: aliceblue;
+  background-color: rgb(195, 87, 87);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px;
+  text-align: center;
+}

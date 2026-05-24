@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productivity Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Productivity Hub</h1>
+  <p>Manage your tasks and recipes in one place</p>
+
+  <div class="section">
+    <h2>Task Management</h2>
+    <div class="buttons">
+      <button class="view-tasks" onclick="viewTasks()">View All Tasks</button>
+      <button class="add-task" onclick="addTask()">Add New Task</button>
+      <button class="complete-task" onclick="completeTask()">Complete Task</button>
+      <button class="delete-task" onclick="deleteTask()">Delete Task</button>
+      <button class="task-stats" onclick="taskStats()">Task Statistics</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Recipe Management</h2>
+    <div class="buttons">
+      <button class="view-recipes" onclick="viewRecipes()">View All Recipes</button>
+      <button class="add-recipe" onclick="addRecipe()">Add New Recipe</button>
+      <button class="search-recipes" onclick="searchRecipes()">Search Recipes</button>
+      <button class="random-recipe" onclick="randomRecipe()">Random Recipe</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

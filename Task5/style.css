@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+  padding: 20px;
+  background-color: rgb(5, 19, 51);
+  color: aliceblue;
+  text-transform: uppercase;
+}
+header span {
+  width: 50px;
+  font-size: 20px;
+}
+header nav {
+  display: inline-block;
+  width: 90%;
+  text-align: right;
+}
+header li {
+  display: inline-block;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+.li:hover{
+  color: rgb(246, 77, 10);
+  position: relative;
+  top: 20px;
+}
+li:visited{
+  color: brown;
+}
+.sec1{
+  background-color: rgb(58, 47, 47);
+  color: aliceblue;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.get{
+  background-color: rgb(99, 81, 81);
+  width: 250px;
+  border-radius: 20px;
+  display: inline-block;
+}
+.get:hover{
+  background-color: brown;
+}
+.sec2{
+  text-align: center;
+}
+
+.card button{
+  background-color: #e69500;
+  color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.card button:hover{
+  background-color: rgb(188, 59, 20);
+}
+.card{
+  background-color: rgb(252, 253, 254);
+  display: inline-block;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(198, 129, 129, 0.1);
+  margin:15px ;
+  padding: 20px;
+  vertical-align: top;
+  text-align: center;
+  border-top: 5px solid ;
+}
+.card img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #1a2b49;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.card button {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.card button:hover {
+  background-color: #df1714;
+}
+.line{
+  text-align: center;
+}
+.titlecards{
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 15px;
+}
+.titlecards::after{
+  content:"";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: orange;
+  left: 30%;
+  bottom:0;
+  transition:0.4;
+}
+.titlecards:hover::after{
+  width: 100px;
+}
+.sec3{
+  text-align: center;
+}
+table{
+  width: 90%;
+  margin: 20px 10px;
+  text-transform: capitalize;
+  border-radius: 15px;
+  border-collapse: collapse;
+  border: 2px solid rgb(243, 241, 241);
+  color: rgb(6, 6, 6);
+}
+th, td{
+  border: none;
+  padding: 10px;
+}
+thead{
+  background-color: #1a2b49;
+  color: aliceblue;
+}
+th{
+  position: relative;
+}
+th::after{
+  content:"" ;
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #e69500;
+  left: 0;
+  bottom: 0;
+  transition: 0.4;
+}
+th:hover::after{
+  width: 100%;
+}
+tbody tr:nth-child(odd){
+  background-color: #b0adad;
+}
+.imp{
+  color: #836838;
+}
+.sec4{
+  text-align: left;
+  width: 100%;
+
+}
+.form-section {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(170, 15, 15, 0.1);
+  margin-left: 2%;
+}
+.form-section input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.form-section select{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.form-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.form-section button {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.form-section button:hover {
+  background-color: darkorange;
+}
+.info-section {
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+}
+.info-box {
+  background-color: #1e3a5f;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: relative;
+  transition: 0.3s ;
+}
+.info-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: orange;
+  transition:0.3s ;
+  border-radius: 8px 0 0 8px;
+}
+.info-box:hover::before {
+  width: 5px;
+}
+.info-box h3 {
+  margin-top: 0;
+  color: orange;
+}
+h4{
+  color: aliceblue;
+  background-color: rgb(195, 87, 87);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px;
+  text-align: center;
+}
+h6{
+  color: rgb(145, 105, 46);
+  text-transform: capitalize;
+}
+.footer{
+  background-color: rgb(76, 76, 127);
+  color: aliceblue;
+  padding: 20px;
+  text-align: center;
+}
+.clo{
+  display: inline-block;
+  width: 20%;
+  margin: 0 10px;
+  vertical-align: top;
+  text-transform: capitalize;
+}
+.bold{
+  color: aliceblue;
+  background-color: rgb(195, 87, 87);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px;
+  text-align: center;
+}

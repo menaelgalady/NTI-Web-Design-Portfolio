@@ -1,0 +1,7 @@
+.hero{
+    background-color: rgb(28, 28, 69);
+    color: aliceblue;
+}
+.hero img{
+    animation: move 8s;
+}

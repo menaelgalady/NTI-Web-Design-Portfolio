@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.ddd{
+ background-color: #0000ff;
+ padding: 10px;
+
+}
+.title{
+  background-color: blue;
+  color: aliceblue;
+  text-align: center;
+  height: 30px;
+}
+.m{
+  font-style: italic;
+}
+.title2{
+  text-align: left;
+}
+.word{
+  color: red;
+}
+.p1{
+  text-align: left;
+
+}
+.p2{
+  text-align: left;
+}
+
+header{
+  background-color: black;
+  background-size: auto;
+  color: rgb(210, 210, 204);
+  text-align: center;
+  padding: 5px;
+  word-spacing: 15px;
+}
+header span{
+  margin: 0 10px;
+}
+.title2{
+  direction: ltr;
+  color: rgb(96, 96, 185);
+}
+main{
+  padding: 10px;
+  background-color: rgb(191, 191, 133);
+  display: inline-block;
+}
+main section{
+  background-color: rgb(230, 226, 220);
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  border: 3px solid rgba(18, 18, 18, 0.756);
+  vertical-align: top;
+}
+.sec1{
+  width: 50%;
+  border: 3px solid rgb(230, 226, 220);
+  border-radius: 15px;
+  display: inline-block;
+  vertical-align: middle;
+
+
+}
+.sec2{
+  width: 40%;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  writing-mode: vertical-rl;
+  width: 30%;margin: 20PX;
+  border: 3px solid rgb(19, 18, 18);
+  padding: 20px;
+  border-radius: 15px;
+}
+footer{
+  background-color: rgba(120, 91, 55, 0.756);
+  text-align: center;
+  padding: 15px 0;
+  color: beige;
+}
